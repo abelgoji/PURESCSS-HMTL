@@ -1,0 +1,239 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+  /* beginnig of media query for min-width 400px
+ ............................................. */
+
+  @media only screen and (min-width: 400px) {
+   .portfoliosize{
+        width: 700%;
+    }
+
+    .location, .around, .freelance {
+        width: 100%;
+    }
+
+  }
+
+   /* beginnig of media query for min-width 760px
+ ............................................. */
+  
+  @media only screen and (min-width: 760px) {
+   .portfoliosize{
+       width: 70%;
+   }
+
+   .medium-screen{
+       display: flex;
+   }
+
+    #about-section-content{
+    color: white;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    }
+
+    .column1, .column2 {
+    justify-content: center;
+    text-align: left ;
+    padding: 25px;
+    }
+   
+    .c-section {
+    padding: 20px;
+     display: flex;   
+     align-items: center;
+     justify-content: center;
+     line-height: 9PX; 
+    }
+
+   .location, .around, .freelance {
+    width: 25%;
+    padding: 25px;
+
+    }
+
+   #container-buttom{
+    background-color: rgb(5, 20, 36) ;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    white-space: 30px;
+    padding: 50px;
+    margin-left: -10px;
+    margin-right: -10px;
+    }
+
+}
+
+  /* END OF MEDIA QUERY 
+ ............................................. */
+ 
+h1{
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.code-with-pure-css {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: rgb(4, 8, 65);
+}
+
+nav{
+   padding:12px;
+   width: 100%;
+   margin-top: -12px;
+   margin-bottom: 12px;
+   margin-left: -10px;
+   margin-right: -10px;
+   position: fixed;
+   background-color: rgb(5, 20, 36) ;;;
+   display: flex;
+   align-items: center;
+
+}
+nav>div{
+    display: flex;
+}
+.pure-css {
+    width: 40%;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white
+}
+
+
+.menu-item {
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    padding: 20px;
+    font-size: 1.3rem;
+    justify-content: flex-end;
+}
+
+nav > div > ul > li{
+    text-decoration: white;
+    padding-left: 12px;
+   align-items: right;
+}
+a{
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(2, 130, 59);
+}
+
+.container {
+    text-align: center;
+    width: auto;
+
+}
+#first-section{
+    clear: both;
+    background-color: rgb(32, 213, 128);
+    padding-top: 200px;
+    padding-bottom: 50px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+
+#first-section-text{
+    color: white;
+    line-height: 2PX;  
+}
+
+.gadi {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    line-height: 2PX; 
+    ;
+}
+
+.portfoliosize{
+    width: 50%;
+}
+
+#about-section {
+    display: fle;
+    clear: both;
+    background-color: rgb(32, 213, 128);
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+}
+#about-section-content{
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+
+}
+
+
+
+.c-section {
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 9PX; 
+}
+
+#contact{
+    padding: 20px;
+
+}
+
+.column1, .column2 {
+    justify-content: center;
+    text-align: justify ;
+    width: 80%;
+    padding: 25px;
+}
+
+
+
+.location, .around, .freelance {
+    width: 100%;
+    padding: 25px;
+
+}
+
+#container-buttom{
+    background-color: rgb(5, 20, 36) ;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    white-space: 30px;
+    padding: 50px;
+    margin-left: -10px;
+    margin-right: -10px;
+
+}
+
+
+#phone, #email{
+    width: 100%;
+    padding: 5px;
+}
+.footer {
+    padding: 12px;
+    margin-left: -10px;
+    margin-right: -10px;
+    color: white;
+    text-align: center;
+    line-height: 10px;
+    background-color: rgb(4, 10, 17) ;
+    font-size: small;
+}
